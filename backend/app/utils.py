@@ -47,7 +47,7 @@ def translate_text(text, known_language, target_lang):
     #print(len(text))
     completion = client.chat.completions.create(model="gpt-4o-mini",
     messages=[
-        {"role": "system", "content": "You are fluent in almost every language and you are here to help translate a given text."},
+        {"role": "system", "content": "You are fluent in almost every language and you are here to help translate a given text. give just the translation with no additional text. with /n(enter) at the end of every period"},
         {"role": "user", "content": f"Translate the following text from {known_language} to {target_lang}: {text}"}
     ],
     max_tokens=3000)

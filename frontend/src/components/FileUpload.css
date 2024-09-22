@@ -1,0 +1,78 @@
+/* CSS for the FileUpload component */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  select, input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  p.error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    padding: 0;
+  }
+  
+  input[type="text"] {
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #888;
+  }
+  
+  p {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  
