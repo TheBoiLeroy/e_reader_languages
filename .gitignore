@@ -2,3 +2,4 @@
 *.tmp         # Ignores all .tmp files
 *.env
 /node_modules
+venv/
