@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.texts {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.text-box {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.translated {
+  color: green;
+  font-style: italic;
+}
